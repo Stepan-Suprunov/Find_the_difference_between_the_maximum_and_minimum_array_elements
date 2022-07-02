@@ -27,9 +27,7 @@ void FindMinMax(int [] collection)
     Console.WriteLine(min + " " + max);
 }
 
-int diff = max - min;
-
 PrintArray(array);
 Console.WriteLine();
 FindMinMax(array);
-Console.WriteLine(diff);
+Console.WriteLine(max-min);
